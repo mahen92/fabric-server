@@ -63,6 +63,16 @@
             "httpOptions": {
                 "verify": false
             }
+        },
+        "rca-perduechicken": {
+            "url": "https://localhost:10054",
+            "caName": "rca-perduechicken",
+            "tlsCACerts": {
+                "pem": "-----BEGIN CERTIFICATE-----\nMIICGDCCAb6gAwIBAgIUJ1Gno6VhK2fu5b3lO5ILgSpXz0cwCgYIKoZIzj0EAwIwYDELMAkGA1UEBhMCVVMxFzAVBgNVBAgTDk5vcnRoIENhcm9saW5hMRQwEgYDVQQKEwtIeXBlcmxlZGdlcjEPMA0GA1UECxMGRmFicmljMREwDwYDVQQDEwhyY2Etb3JnMTAeFw0yMTAxMDkxMjQ1MDBaFw0zNjAxMDYxMjQ1MDBaMGAxCzAJBgNVBAYTAlVTMRcwFQYDVQQIEw5Ob3J0aCBDYXJvbGluYTEUMBIGA1UEChMLSHlwZXJsZWRnZXIxDzANBgNVBAsTBkZhYnJpYzERMA8GA1UEAxMIcmNhLW9yZzEwWTATBgcqhkjOPQIBBggqhkjOPQMBBwNCAAROqGQ1r1O5PZHLS+BFdO9unYb5hrdav9CM1G8842OCh4k+EI0GYnFZjOyeheBejQYKWBJzwHidQ+BDCo0EBT8Zo1YwVDAOBgNVHQ8BAf8EBAMCAQYwEgYDVR0TAQH/BAgwBgEB/wIBATAdBgNVHQ4EFgQUzlBX0VYeVmYysDmXlI8G5YKVelwwDwYDVR0RBAgwBocEAAAAADAKBggqhkjOPQQDAgNIADBFAiEAt1q8w+i9h9Owc0Uh2eS7Y4N9BLPIcxcsMSSvDimRpHkCIHFrY87kg6EcvvQTTraalFTWIOL/eEZ+MnvGF+k/ImVV\n-----END CERTIFICATE-----\n"
+            },
+            "httpOptions": {
+                "verify": false
+            }
         }
     }
 }
