@@ -20,6 +20,15 @@
             "certificateAuthorities": [
                 "rca-mclane"
             ]
+        },
+        "PerdueChicken": {
+            "mspid": "PerdueChickenMSP",
+            "peers": [
+                "peer0.perduecicken.mctrace.com"
+            ],
+            "certificateAuthorities": [
+                "rca-perduechicken"
+            ]
         }
     },
     "peers": {
@@ -31,6 +40,16 @@
             "grpcOptions": {
                 "ssl-target-name-override": "peer0.mclane.mctrace.com",
                 "hostnameOverride": "peer0.mclane.mctrace.com"
+            }
+        },
+        "peer0.perduechicken.mctrace.com": {
+            "url": "grpcs://0.0.0.0:8051",
+            "tlsCACerts": {
+                "path": "/home/ubuntu/mctrace-aws/McTrace_Fabric/organizations/perduechicken/peer0/tls-msp/tlscacerts/tls-0-0-0-0-7054.pem"
+            },
+            "grpcOptions": {
+                "ssl-target-name-override": "peer0.perduechicken.mctrace.com",
+                "hostnameOverride": "peer0.perduechicken.mctrace.com"
             }
         }
     },
